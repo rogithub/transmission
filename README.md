@@ -1,9 +1,6 @@
 # transmission
 transmission Container setup
 
-# Get current user id
-
-
 # Service config
 
 get user and group id for runTransmissionContainer.sh env variables
