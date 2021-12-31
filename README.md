@@ -5,6 +5,16 @@ transmission Container setup
 
 
 # Service config
+
+get user and group id for runTransmissionContainer.sh env variables
+``` bash
+id
+chmod +x runTransmissionContainer.sh
+emacs runTransmissionContainer.sh
+./runTransmissionContainer.sh
+```
+
+
 ``` bash
 podman generate systemd --new --name transmission
 ```
@@ -21,7 +31,6 @@ systemctl enable transmission
 systemctl start transmission
 systemctl status transmission
 ```
-
 
 # Container management
 ``` bash
